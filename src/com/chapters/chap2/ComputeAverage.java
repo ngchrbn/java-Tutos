@@ -1,4 +1,4 @@
-package com.Chapters.chap2;
+package com.chapters.chap2;
 import java.util.Scanner;
 
 public class ComputeAverage {

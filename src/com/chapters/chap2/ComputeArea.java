@@ -1,4 +1,4 @@
-package com.Chapters.chap2;
+package com.chapters.chap2;
 
 public class ComputeArea {
     public static void main(String[] args) {

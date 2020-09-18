@@ -1,4 +1,4 @@
-package com.Case_Study;
+package com.case_study;
 
 public class ShowCurrentTime {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.Chapters.chap4;
+package com.chapters.chap4;
 
 public class FormatDemo {
     public static void main(String[] args) {

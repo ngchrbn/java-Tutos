@@ -1,4 +1,4 @@
-package com.Chapters.chap3;
+package com.chapters.chap3;
 
 import java.util.Scanner;
 public class AdditionQuiz {
