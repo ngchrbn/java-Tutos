@@ -18,6 +18,7 @@ public class AnalyzeNumbers {
 
         double average = sum / n;
 
+
         int count = 0; // The number of element above average
         for (int i=0; i<n; i++)
             if (numbers[i] > average)
@@ -27,3 +28,4 @@ public class AnalyzeNumbers {
         System.out.println("Number of elements above the average is " + count);
     }
 }
+
