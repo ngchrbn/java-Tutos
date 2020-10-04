@@ -2,20 +2,21 @@ package com.chapters.chap11;
 
 import java.util.Date;
 
-public class GeometricObject {
+public abstract class GeometricObject {
     private String color = "white";
     private boolean filled;
     private Date dateCreated;
 
     /** Construct a default geometric object */
-    public GeometricObject() {
+    protected GeometricObject() {
         dateCreated = new Date();
     }
 
     /** Construct a geometric object with the specified color
      * and filled value
      */
-    public GeometricObject(String color, boolean filled) {
+    protected GeometricObject(String color, boolean filled) {
+        dateCreated = new Date();
         this.color = color;
         this.filled = filled;
     }
@@ -48,8 +49,15 @@ public class GeometricObject {
     }
 
     /** Return a string representation of this object */
+    @Override
     public String toString() {
         return "Created on " + dateCreated + "\nColor: " + color +
                 "\nFilled: " + filled;
     }
+
+    /** Abstract method getArea */
+    public abstract double getArea();
+
+    /** Abstract method getPerimeter */
+    public abstract double getPerimeter();
 }
